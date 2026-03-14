@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/examples/ecommerce/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/examples/ecommerce/:path*", "destination": "/index.html" },
+    { "source": "/examples/ecommerce", "destination": "/index.html" }
+  ]
+}

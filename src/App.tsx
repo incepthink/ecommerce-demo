@@ -24,7 +24,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/examples/ecommerce">
         <StoreProvider>
           <Navbar />
           <Routes>
